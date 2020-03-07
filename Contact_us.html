@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="CSS/normalize.css">
+        <link rel="stylesheet" href="CSS/Contact_us.css">
+        <link rel="stylesheet" href="CSS/main.css">
+        <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="CSS/Login.css">
+        <meta charset="utf-8">
+        <title id="title">Taswaq Home Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>-->
+    </head>
+    <body>
+        <!-- Header -------------------------->
+        <header>
+            <div class="top-header">
+                <a href="Home.html"><img src="Logo.jpeg"></a>
+                <input type="search" placeholder="Find Product ...">
+                <button class="search-icon"><span class="fa fa-search"></span></button>
+                <button class="login" type="submit">login</button>
+                <a href="Cart.html"><button class="cart"><i class="fa fa-shopping-cart"></i></button></a>
+            </div>
+            <div class="clearfix"></div>
+                <nav class="nav-head">
+                    <ul class="main">
+                        <li><a href="Home.html">Home</a></li>
+                        <li><a href="TDeals.html">Today Deal's</a></li>
+                        <li><a href="#">Categories</a>
+                            <ul class="drop1">
+                                <li><a href="Fashions.html">Fashions</a></li>
+                                <li><a href="Games.html">Games </a></li>
+                                <li><a href="#">Electronics</a>
+                                    <ul class="drop2">
+                                        <li><a href="Mobiles.html">Mobiles</a></li>
+                                        <li><a href="Laptops.html">Laptops</a></li>
+                                        <li><a href="Televisions.html">Televisions</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="Gifts.html">Gifts</a></li>
+                        <li><a href="Registigtion.html">Register</a></li>
+                        <li><a href="About_Us.html">About us</a></li>
+                        <li><a href="Contact_us.html" class="active">Contact us</a></li>
+                    </ul>
+                </nav>
+        </header>
+        
+        <div class="login-section" style="display: none">
+            <h1>Login</h1>
+            <p>Enter your personal info :</p>
+            <input type="text" placeholder="Type your username" class="name"><br>
+            <input type="password" placeholder="Type your password" class="pass"> <br>
+            <input type="submit" value="Login" class="login-submit">
+        </div>
+        
+        <div class="contactMe">
+            <div class="container">
+                <div class="info">
+                    <h2>Contact Me</h2>
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. 
+                    </p>
+                    <p>122 33rd street</p>
+                    <p>122 33rd street</p>
+                    <p>122 33rd street</p>
+                    <p><span>Email: </span> info@taswaq.com</p>
+                    <p><span>Phone: </span> 021651651513213s</p>
+                </div>
+
+                <form class="form">
+                    <label>Name<span id="star" style="color: red">*</span></label>
+                    <input type="text" placeholder="Your Name..."  required = "required">
+                    <label>Address<span id="star" style="color: red">*</span></label>
+                    <input type="text" placeholder="Your Address..." required = "required">
+                    <label>Country</label>
+                    <select id="country" name="country">
+                      <option value="au">Australia</option>
+                      <option value="ca">Canada</option>
+                      <option value="usa" selected >USA</option>
+                    </select>
+                    <label>Email<span id="star" style="color: red">*</span></label>
+                    <input type="email" required="required" placeholder="example@hotmail.com">
+                    <label>Message<span id="star" style="color: red">*</span></label>
+                    <textarea></textarea>
+                    <button class="button" style="vertical-align:middle"><span>Send</span></button>
+                </form>
+            </div>
+    </div>
+        
+        <footer>
+            <div class="copy1"> <p style="margin-top: 10px;" class="copy">&copy;2010-2019,Tasawaq.com</p>
+            </div>
+        <!--    <img class="img1" src="Logo-removebg-preview.png"/>-->
+            <img class="img2" src="Images/images-removebg-preview.png"/> 
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+
+            <div class="Info">
+                <p class="InfoP">Company Info</p>
+                <p class="InfoE"><i class='fa fa-envelope' style='font-size:36px; margin-right: 22px;'></i>:<a href="mailto:info@taswaq.com">Taswaq@gmail.com</a></p>
+                <p class="address"><i class='fa fa-building' style='font-size:36px; margin-right: 22px;'></i>:Office 101, Mazaya Business Avenue BB1, JLT, Dubai, UAE</p>
+                <p class="Tel"><i class='fa fa-mobile' style='font-size:60px'></i> :+971-557395056</p>
+            </div>
+        </footer>
+    </body>
+    <script src="JQuery_3.4/JQuery-3.4-min.js"></script>
+    <script src=JS/Login.js></script>
+</html>

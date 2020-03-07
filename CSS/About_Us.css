@@ -1,0 +1,115 @@
+
+/* Welcome **************/
+
+.welcome{
+    text-align: center;
+    background: #666;
+    color: white;
+    padding: 30px;
+    padding-bottom: 80px;
+}
+
+.welcome h1{
+    font-size: 72px;
+    font-weight: 100;
+    letter-spacing: .1em;
+    line-height: 1em;
+    color: #fff;
+    margin: 176px 0 45px;
+}
+
+.welcome p{
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: .05em;
+    line-height: 1.5em;
+    color: #fff;
+    margin: 0 auto;
+    width: 560px;
+}
+
+/* Story ***********************/
+.story, .values{
+    padding: 100px 40px 40px 40px;
+    overflow: hidden;
+}
+
+.story .story-head, .values .values-head{
+    float: left;
+    width: 50%;
+    font-family: Heebo,sans-serif;
+    font-size: 60px;
+    font-weight: 100;
+    letter-spacing: .1em;
+    line-height: 1em;
+    color: #000;
+}
+
+.story .story-info, .values .values-info{
+    float: right;
+    width: 50%;
+}
+
+.story-info h3, .values-info h3{
+    font-size: 24px;
+    font-weight: 200;
+    letter-spacing: .025em;
+    color: #000;
+    margin-bottom: 30px;
+}
+
+.story-info p, .values-info p{
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: .025em;
+    line-height: 1.5em;
+    color: #000;
+    margin: 0;
+}
+
+/* Statisics ***************************/
+.stat{
+    background: #e0f0ea;
+    overflow: hidden;
+    min-height: 600px;
+    margin-top: 60px;
+}
+
+.stat-image img{width: 100%;}
+
+.stat-info{}
+
+.stat-info li{
+    float: left;
+    width: 25%;
+    display: block;
+    text-align: center;
+    margin-top: 60px;
+} 
+
+.stat-info div{
+    font-family: Heebo,sans-serif;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 1em;
+    color: #769d9e;
+    margin-bottom: 20px;
+    letter-spacing: -.02em;
+}
+
+.stat-info p{
+    font-size: 21px;
+    font-weight: 400;
+    letter-spacing: -.025em;
+    color: #769d9e;
+    margin: 0;
+}
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,164 @@
+.Name{
+font-family: "Times New Roman", Times, serif;
+letter-spacing: 1.6px;
+word-spacing: 1.2px;
+color: black;
+font-weight: normal;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: capitalize;
+text-shadow: 2px 3px 5px grey;
+float: right;
+ margin: 0;
+ width: 56%;
+margin-top: 28px; 
+    
+}
+
+.byName{
+    color: black;
+    margin-top: 13px;
+    width: 25%;
+    float: right;
+    margin-right: 359px;
+    font-size: 20px ; 
+    text-shadow: 2px 3px 5px grey;
+}
+.byName::first-letter{
+    text-transform: uppercase ; 
+}
+
+.byName a {
+    text-decoration: none ; 
+}
+
+.byName a:hover{
+    color: #c45500 ; 
+    text-decoration-line: underline ; 
+}
+
+.imgProduct{
+    width: 500px;
+    height: 326px;
+    margin-top: -171px;
+}
+
+hr{
+    background-color: transparent;
+    display: block;
+    height: 1px;
+    border-width: 0;
+    border-top: 1px solid #e7e7e7;
+    line-height: 32px;
+    margin-top: 41px;
+    margin-bottom: 12px;
+    margin-right: 10px;
+}
+
+.price{
+     float: right;
+    margin-right: 444px;
+    margin-top: -113px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 27px;
+    letter-spacing: 1.2px;
+    word-spacing: 0.8px;
+    color: #000000;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: oblique;
+    font-variant: normal;
+    text-transform: none;
+    text-shadow: 1px 0.5px 1px grey;
+    box-shadow: 0px 20px 0px -10px #FFFFFF, 0px -20px 0px -10px #FFFFFF, 20px 0px 0px -10px #FFFFFF, -20px 0px 0px -10px #FFFFFF, 0px 0px 1px 10px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+.MoreD{
+    
+    float: left;
+    margin-left: 53px;
+    font-family: Georgia, serif;
+    font-size: 24px;
+    letter-spacing: 0.8px;
+    word-spacing: 1.6px;
+    color: #000000;
+    font-weight: 400;
+    text-decoration: rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: normal;
+    text-transform: capitalize;
+    text-shadow: 1px 0.5px 1px grey;
+}
+
+table.comicGreen {
+     font-family: "Comic Sans MS", cursive, sans-serif;
+    border: 2px solid #4F7849;
+    background-color: #EEEEEE;
+    width: 92%;
+    text-align: center;
+    border-collapse: collapse;
+    margin-left: 43px;
+    margin-top: 51px;
+  
+}
+table.comicGreen td, table.comicGreen th {
+  border: 1px solid #4F7849;
+  padding: 38px 50px;
+}
+table.comicGreen tbody td {
+  font-size: 28px;
+  font-weight: bold;
+   text-shadow: 1px 0.5px 1px grey;
+}
+table.comicGreen tr:nth-child(even) {
+  background: #CEE0CC;
+}
+table.comicGreen tfoot td {
+  font-size: 21px;
+}
+
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #403b39;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-left: 9px;
+    margin-top: 84px;
+    width: 40%;
+    text-shadow: 1px 0.5px 1px grey;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.container{min-height: 1700px;}

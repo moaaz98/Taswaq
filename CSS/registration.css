@@ -1,0 +1,197 @@
+
+body{
+    background: #F7F7F7;
+}
+
+.clearfix{clear: both}
+
+.container{
+    width: 1170px;
+    margin: 0px auto;
+    background: white;
+    min-height: 2000px;
+    box-shadow: 10px 10px 50px 5px grey;
+}
+
+
+.float-left{float: left}
+.float-right{float: right}
+
+/* Header ****************************/
+header{
+    margin-bottom: 30px;
+}
+
+/* Top Header */
+header .top-header{
+    margin: 10px 0px 20px 20px;
+}
+
+header input[type="search"]{
+    width: 1000px;
+    float: left;
+    margin-left: 195px;
+    margin-top: 24px;
+    height: 38px;
+    border: 0px;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+header img{
+    width: 150px;
+    float: left;
+    height: 78px;
+}
+
+header button.search-icon{
+    margin-top: 25px;
+    height: 37px;
+    border: none;
+    cursor: pointer;
+    width: 60px;
+}
+
+header button.search-icon:hover{color:white; background: #666; transition: 0.3s;}
+
+header button.login{
+    margin-left: 20px;
+    padding: 10px;
+    width: 200px;
+    cursor: pointer;
+    border: none;
+}
+
+header button.cart{
+    padding: 10px;
+    width: 150px;
+    margin-left: 20px;
+    cursor: pointer;
+    border: none;
+}
+
+header button.login:hover{color:white; background: #666; transition: 0.3s;}
+
+header button.cart:hover{color:white; background: #666; transition: 0.3s;}
+
+/* Nav Bar */
+nav.nav-head {
+	margin: 35px 0;
+	background-color: #FF4649;    
+}
+nav.nav-head ul {
+	padding: 0px;
+    margin: 0px;
+	list-style: none;
+	position: relative;
+	}	
+nav.nav-head ul.main{margin-left: 200px;}
+
+nav.nav-head ul li {
+	display:inline-block;
+	background-color: #FF4649;
+    width: 200px;
+    text-align: center;
+	}
+nav.nav-head a {
+	display:block;
+	padding:0 10px;	
+	color:#FFF;
+	font-size:20px;
+	line-height: 60px;
+	text-decoration:none;
+    letter-spacing: 2px; 
+    font-variant: small-caps;
+    font-family:sans-serif  ;
+    padding: 0px 10px;
+}
+
+nav.nav-head a.active{background-color: #333; color: white;}
+nav.nav-head a.active:hover{color: white;}
+
+nav.nav-head a:hover {color: #333333; transition: 0.3s;}
+/*nav.nav-head a:hover {background-color: #333; color: white; transition: 0.3s;} */
+
+nav.nav-head ul ul {
+	display: none;
+	position: absolute; 
+	top: 60px; 
+    z-index: 1;
+}	
+nav.nav-head ul li:hover > ul {
+	display:inherit;
+}	
+nav.nav-head ul ul li {
+	width:230px;
+	float:none;
+	display:list-item;
+	position: relative;
+    
+}
+nav.nav-head ul ul ul li {
+	position: relative;
+	top:-60px; 
+	left:230px;
+}
+nav.nav-head ul ul li {
+	border: 1px solid white;
+}	
+nav.nav-head li > a:after { content:  ' ▼'; }
+nav.nav-head li > a:only-child:after { content: ''; }
+
+
+
+/*Registration---------------------------------*/
+
+.Registration
+{
+    
+    background-color:#f2f2f2 ;
+    margin: 0px auto;
+    width: 30%;
+    vertical-align: middle;
+    padding: 10%;
+    font-size: 25px;
+    text-align: center;
+}
+
+.reg-title
+{
+    font-size: 25px;
+   font-weight: bold;
+}
+.reg-login a{
+    
+    text-decoration: none;
+}
+
+.reg-input{
+    
+    padding: 5px 5px 5px 15px;
+    width: 100%;
+    border-radius: 50px;
+   
+}
+.reg-input:focus{
+    
+    background-color:lightgray;
+    
+}
+
+.reg-submit{
+    
+    background: lightgrey;
+    cursor: pointer;
+    width: 300px;
+    margin-top: 30px;
+    padding: 25px;
+    font-size: 20px;
+    margin: auto''
+}
+
+.reg-submit:hover{
+    background: grey;
+    color: white;
+}
+
+.Registration .reg1-input{height: 50px; font-size: 25px;}
